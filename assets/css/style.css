@@ -1,0 +1,145 @@
+	*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	}
+	.container{
+		width:1100px;
+		margin:0 auto;
+		
+	}
+	.headersection{
+		padding:70px 0 85px;
+		
+	}
+	.head{
+		color:#000000;
+		font-size:30px;
+		text-transform:uppercase;
+	}
+	.row, .row::after, .row::before{
+		display:table;
+		width:100%;
+		clear:both;
+	}
+	.navbar ul{
+		list-style:none;
+		
+	}
+	.navbar ul li{
+		display:inline-block;
+		text-decoration:none;
+		margin-left:31px;
+		
+	}
+	.navbar li a:link, .navbar li a:visited{
+		text-decoration: none;
+		color:#626262;
+		font-size:14px;
+		padding:19px;
+		text-transform: uppercase;
+		display:inline-block;
+	}
+	[class^="col-"]{
+		float: left;
+	}
+	
+	.col-6{
+		width: calc(100% * 6 / 12);
+	}
+	
+	
+	.col-12{
+		
+		width: calc(100% * 12 / 12);
+	}
+	.heroimage{
+		height: 100vh;
+		background-image: url(..//images/image.jpg);
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-image:fixed;
+		background-size: cover;
+	
+	}
+	
+	
+
+	.col-10{
+		width: calc(100% * 10 / 12);
+	}
+	.offset-1{
+		margin-left: calc(100% * 1 / 12);
+	}
+	.col-5{
+		width: calc(100% * 5 / 12);
+	}
+	.photodiary{
+		padding:90px 0 40px;
+	}
+	
+	.primary-heading{
+		
+		font-size:14px;
+		font-weight:light;
+		color:#b4ad9e;
+		margin-bottom:30px;
+	}
+	.secontary-heading{
+		color:#626262;
+		font-size:30px;
+		margin-bottom:40px;
+	}
+	.para{
+		color:#626262;
+		font-size:14px;
+		font-weight:regular;
+		margin-bottom:50px;
+	}
+	
+	/* ----------------------------  section-2  -------------------------*/
+	
+	.comment a:link, .comment a:visited{
+		color:#b4ad9e;
+		font-size:14px;
+		text-decoration:none;
+		text-transform: uppercase;
+		
+	}
+	
+	.image{
+		margin-bottom:30px;
+	}
+	.thambnail{
+		margin-bottom:130px;
+	}
+	
+	/* ------------------------ section-3  ------------------------------------*/
+	.sign-up{
+		background-color:#f0f0f0;
+		margin-bottom:95px;
+	}
+	.sign-heading{
+		padding: 70px 0 80px;
+		text-align:center;
+		font-size:30px;
+		color:#333333;
+	}
+	.input{
+		text-align:center;
+		margin-bottom:70px;
+	}
+	.mb-80{
+		margin-bottom:80px;
+	}
+	.pri-button{
+		padding:20px 30px;
+		font-size:20px;
+		color:#626262;
+		margin-bottom:65px;
+		background-color:#ffffff;
+	}
+	.footer{
+		padding: 42px 0 45px;
+		background-color:#f0f0f0;
+	}
